@@ -1,0 +1,65 @@
+{
+  "name": "educraft-authoring-tool",
+  "version": "1.0.0",
+  "description": "A modern e-learning authoring tool for creating interactive courses with multimedia content, games, avatars, and AI-powered learning blocks",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -c-1",
+    "dev": "npx live-server --port=8000 --entry-file=index.html",
+    "build": "echo 'Build process not yet implemented'",
+    "test": "echo 'Tests not yet implemented'",
+    "lint": "echo 'Linting not yet implemented'"
+  },
+  "keywords": [
+    "e-learning",
+    "authoring-tool",
+    "education",
+    "courses",
+    "interactive-learning",
+    "multimedia",
+    "ai-powered",
+    "games",
+    "avatars",
+    "learning-management"
+  ],
+  "author": {
+    "name": "EduCraft Team",
+    "email": "team@educraft.com",
+    "url": "https://educraft.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/educraft/authoring-tool#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/educraft/authoring-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/educraft/authoring-tool/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "files": [
+    "index.html",
+    "src/",
+    "public/",
+    "README.md",
+    "LICENSE"
+  ],
+  "config": {
+    "port": 8000,
+    "host": "localhost"
+  }
+} 
